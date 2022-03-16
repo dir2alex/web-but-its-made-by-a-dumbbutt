@@ -1,7 +1,7 @@
 *{
     margin:0;
     padding:0;
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Bebas Neue';
 }
 .header{
     min-height: 100vh;
@@ -157,21 +157,24 @@ h3{
     .row{
         flex-direction: column;
     }
-.world-suck{
+}
+/*---- need attention ----*/
+.world{
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 50px;
 }
-}
-.world{
+
+.world-pain{
     flex-basis: 32%;
     border-radius: 10px;
     margin-bottom: 30px;
     position: relative;
     overflow: hidden;
 }
-.world img{
+
+.world-pain img{
     width: 100%;
     display: block;
 }
@@ -266,11 +269,13 @@ h3{
         margin-left: 0px;
         margin-right: 15px;
     }
+
+/*----need attention----*/
 }
 .socmed{
     margin: 100px auto;
     width: 80%;
-    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8),url(images/die.jpg));
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/die.jpg);
     background-position: center;
     background-size: cover;
     border-radius: 10px;
@@ -305,4 +310,47 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 
+}
+
+/*-----about page-------*/
+
+.sub-header{
+    height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.8),rgba(4,9,30,0.8)),url(images/temp\ bgr.jpg);
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.sub-header h1{
+    margin-top: 100px;
+}
+.about-us{
+    width: 80%;
+    margin: auto;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.about-col{
+    flex-basis: 48%;
+    padding: 30px 2px;
+}
+.about-col img{
+    width: 100%;
+}
+.about-col h1{
+    padding-top: 0;
+}
+.about-col p{
+    padding: 15px 0 25px;
+}
+
+.black-btn{
+    border: 1px solid #000000;
+    background: transparent;
+    color: #000000;
+}
+.black-btn:hover{
+    color: #fff;
 }
