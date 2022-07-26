@@ -391,6 +391,9 @@ h3{
 
 /*-----about page-------*/
 
+body{
+    background-color: rgb(50, 50, 50);
+}
 .sub-header{
     height: 50vh;
     width: 100%;
@@ -414,8 +417,32 @@ h3{
 }
 .about-col p{
     padding: 15px 0 25px;
+    color: white;
 }
-
+.about-obs-hq h1{
+    margin-top: 15px;
+    margin-left: 35px;
+    text-align: center;
+    font-size: 85px;
+    text-decoration: underline;
+}
+.about-obs-hq p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+.about-obs-hq2 h1{
+    margin-top: 15px;
+    margin-left: 35px;
+    text-align: center;
+    font-size: 85px;
+    text-decoration: underline;
+}
+.about-obs-hq2 p{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
 
 
 
@@ -523,4 +550,10 @@ h3{
 .box:hover .layer2:nth-child(1){
     transform: translate(40px, -40px);
     opacity: .4;
+}
+
+/*-----characters---------*/
+
+.charalist ul li{
+    list-style: none;
 }
