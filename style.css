@@ -576,6 +576,7 @@ body{
     margin-top: 12px;
     margin-left: 15px;
     color: rgb(226, 226, 226);
+    text-decoration: none;
 }
 .charalist ul li:hover{
     color: red;
