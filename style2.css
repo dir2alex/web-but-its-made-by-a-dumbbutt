@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+header{
+    height: 100vh;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+.beebee{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+}
+.beebee li{
+    display: inline-block;
+}
+.beebee li a{
+    color: black;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+.beebee li a:hover{
+    background-color: white;
+    color: #333;
+}
+.container-avery img{
+    width: 100px;
+    float: left;
+    height: auto;
+}
+.CHAR1-TITLE{
+    position: absolute;
+    width: 600px;
+    height: 300px;
+    margin: 20% 30%;
+    text-align: center;
+}
+.CHAR1-TITLE h1{
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 60px;
+}
+.CHAR1-avery{
+    position: relative;
+    color: black;
+}
+.right-text-avery{
+    position: relative;
+    top: 8px;
+    right: 55px;
+    font-size: 25px;
+    font-style: italic;
+    font-family: 'Vollkorn SC', serif;
+}
+
+/*--------avery texts---------*/
+
+.STORY-TEXT-AVERY p{
+    margin-top: 25px;
+    margin-bottom: 4px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+}
+.STORY-TEXT-AVERY h1{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 35px;
+    font-family: 'Reggae One', cursive;
+}
+.STORY-TEXT-AVERY h2{
+    font-size: 55px;
+    text-align: center;
+    color: red;
+    font-family: 'Anton', sans-serif;
+    font-style: italic;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
