@@ -155,3 +155,20 @@ header{
     font-style: italic;
     font-family: 'Vollkorn SC', serif;
 }
+.text-vin p{
+    margin-top: 25px;
+    margin-bottom: 4px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+    }
+.text-vin h1{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 35px;
+    font-family: 'Reggae One';
+    color: red;
+}
