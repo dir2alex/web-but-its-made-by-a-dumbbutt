@@ -4,16 +4,16 @@
     font-family: 'Fjalla One', sans-serif;
 }
 
+#AveryPage{
+    height: 100%;
+    background-image: url("hariflowave.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .wrapper{
     width: 1170px;
     margin: auto;
-}
-header{
-    height: 100vh;
-    -webkit-background-size: cover;
-    background-size: cover;
-    background-position: center center;
-    position: relative;
 }
 .beebee{
     float: right;
@@ -38,24 +38,16 @@ header{
     float: left;
     height: auto;
 }
-.CHAR1-TITLE{
-    position: relative;
+.CHAR1-TITLE h1{
+    padding-top: 300px;
     text-align: center;
     color: white;
-}
-.CHAR1-TITLE h1{
-    text-align: center;
-    color: black;
     text-transform: uppercase;
     font-size: 60px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 .CHAR1-avery{
     position: relative;
-    color: black;
+    text-shadow: 2px 2px white;
 }
 .right-text-avery{
     position: relative;
@@ -64,6 +56,7 @@ header{
     font-size: 25px;
     font-style: italic;
     font-family: 'Vollkorn SC', serif;
+    text-shadow: 2px 2px gray;
 }
 
 /*--------avery texts---------*/
@@ -76,6 +69,8 @@ header{
     text-align: center;
     font-size: 20px;
     font-family: 'Vollkorn SC', serif;
+    background-color: transparent;
+    text-shadow: 2px 2px gray;
 }
 .STORY-TEXT-AVERY h1{
     text-align: center;
@@ -83,6 +78,7 @@ header{
     margin-bottom: 8px;
     font-size: 35px;
     font-family: 'Reggae One', cursive;
+    text-shadow: 2px 2px white;
 }
 .STORY-TEXT-AVERY h2{
     font-size: 55px;
@@ -97,6 +93,9 @@ header{
 
 /*---------VINS CHARACTER PAGE-------------*/
 
+#VinPage{
+    background-color: rgb(15, 2, 26);
+}
 .wrapper{
     width: 1170px;
     margin: auto;
@@ -121,6 +120,7 @@ header{
     text-decoration: none;
     padding: 5px 20px;
     font-size: 14px;
+    color: white;
 }
 .beebee li a:hover{
     background-color: white;
@@ -139,13 +139,13 @@ header{
 }
 .CHAR2-TITLE h1{
     text-align: center;
-    color: black;
+    color: white;
     text-transform: uppercase;
     font-size: 60px;
 }
 .CHAR2-vin{
     position: relative;
-    color: black;
+    color: white;
 }
 .right-title-vin{
     position: relative;
@@ -154,6 +154,7 @@ header{
     font-size: 25px;
     font-style: italic;
     font-family: 'Vollkorn SC', serif;
+    color: white;
 }
 .text-vin p{
     margin-top: 25px;
@@ -163,6 +164,7 @@ header{
     text-align: center;
     font-size: 20px;
     font-family: 'Vollkorn SC', serif;
+    color: white;
     }
 .text-vin h1{
     text-align: center;
@@ -170,5 +172,51 @@ header{
     margin-bottom: 8px;
     font-size: 35px;
     font-family: 'Reggae One';
-    color: red;
+    color: white;
+}
+.text-vin2 h2{
+    margin-top: 25px;
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Vollkorn SC', serif;
+    color: white;
+}
+.text-vin2 p{
+    margin-top: 25px;
+    margin-bottom: 4px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+    color: white;
+}
+.text-vin3 h3{
+    margin-top: 25px;
+    margin-bottom: 11px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Vollkorn SC', serif;
+    color: white;
+}
+.text-vin3 p{
+    margin-top: 25px;
+    margin-bottom: 4px;
+    margin-left: 21px;
+    margin-right: 21px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Vollkorn SC', serif;
+    color: white;
+}
+.editors-note p{
+    padding-top: 55px;
+    padding-bottom: 45px;
+    padding-left: 88px;
+    text-align: left;
+    font-family: 'Aboreto', cursive;
+    font-style: italic;
+    font-size: 18px;
+    color: blue;
 }
