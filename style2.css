@@ -130,6 +130,7 @@ header{
     width: 100px;
     float: left;
     height: auto;
+    width: 400px;
 }
 .CHAR2-TITLE{
     position: relative;
@@ -165,7 +166,7 @@ header{
     font-size: 20px;
     font-family: 'Vollkorn SC', serif;
     color: white;
-    }
+}
 .text-vin h1{
     text-align: center;
     margin-top: 8px;
@@ -173,6 +174,14 @@ header{
     font-size: 35px;
     font-family: 'Reggae One';
     color: white;
+}
+.text-vin h2{
+    text-align: center;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    font-size: 35px;
+    font-family: 'Reggae One';
+    color: red;
 }
 .text-vin2 h2{
     margin-top: 25px;
@@ -219,4 +228,7 @@ header{
     font-style: italic;
     font-size: 18px;
     color: blue;
+}
+.huh img{
+    margin-left: 30%;
 }
