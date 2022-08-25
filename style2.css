@@ -232,3 +232,63 @@ header{
 .huh img{
     margin-left: 30%;
 }
+
+
+/*----------G PAGE SHEET-------------*/
+
+#GPage{
+    background-image: url("G ref sheet.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+.DJHero{
+    height: 100vh;
+    width: 100%;
+}
+#GPage nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.DJTitle{
+    color: white;
+    font-size: 28px;
+    text-align: left;
+    padding-top: 2%;
+    padding-left: 2%;
+}
+#GPage a{
+    margin-left: 100%;
+    border: none;
+    background: #855ff6;
+    padding: 12px 45px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .4s;
+    text-align: center;
+}
+#GPage a:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+}
+.DJTitle2 h1{
+    text-align: center;
+    font-size: 100px;
+    font-family: 'Rubik Maze', cursive;
+    padding-bottom: 100%;
+}
+.untitled-text-G p{
+    text-align: center;
+    font-family: 'Silkscreen', cursive;
+    font-size: 50px;
+    padding-bottom: 100%;
+}
